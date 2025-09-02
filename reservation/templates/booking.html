@@ -10,7 +10,8 @@
             </div>
         </center>
 
-        <form method='POST' action='http://127.0.0.1:8000/reservation/book/'>
+        <form method='POST' action="{% url 'reservation:booking_form' %}">
+
             {% csrf_token %}
 
             <div class="form-group row">

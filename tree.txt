@@ -1,0 +1,80 @@
+.
+├── db.sqlite3
+├── docker-compose.yml
+├── Dockerfile
+├── manage.py
+├── railway
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── settings.cpython-312.pyc
+│   │   ├── settings.cpython-38.pyc
+│   │   ├── urls.cpython-312.pyc
+│   │   ├── urls.cpython-38.pyc
+│   │   ├── wsgi.cpython-312.pyc
+│   │   └── wsgi.cpython-38.pyc
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── README.md
+├── requirements.txt
+├── reservation
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_auto_20200608_1012.py
+│   │   ├── 0003_auto_20200608_1116.py
+│   │   ├── 0004_trains_price.py
+│   │   ├── 0005_auto_20200608_1232.py
+│   │   ├── 0006_auto_20200608_1233.py
+│   │   ├── 0007_alter_person_id_alter_trains_id.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-312.pyc
+│   │       ├── 0001_initial.cpython-38.pyc
+│   │       ├── 0002_auto_20200608_1012.cpython-312.pyc
+│   │       ├── 0002_auto_20200608_1012.cpython-38.pyc
+│   │       ├── 0003_auto_20200608_1116.cpython-312.pyc
+│   │       ├── 0003_auto_20200608_1116.cpython-38.pyc
+│   │       ├── 0004_trains_price.cpython-312.pyc
+│   │       ├── 0004_trains_price.cpython-38.pyc
+│   │       ├── 0005_auto_20200608_1232.cpython-312.pyc
+│   │       ├── 0005_auto_20200608_1232.cpython-38.pyc
+│   │       ├── 0006_auto_20200608_1233.cpython-312.pyc
+│   │       ├── 0006_auto_20200608_1233.cpython-38.pyc
+│   │       ├── __init__.cpython-312.pyc
+│   │       └── __init__.cpython-38.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── admin.cpython-312.pyc
+│   │   ├── admin.cpython-38.pyc
+│   │   ├── apps.cpython-312.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── models.cpython-312.pyc
+│   │   ├── models.cpython-38.pyc
+│   │   ├── urls.cpython-312.pyc
+│   │   ├── urls.cpython-38.pyc
+│   │   ├── views.cpython-312.pyc
+│   │   └── views.cpython-38.pyc
+│   ├── templates
+│   │   ├── addtrain.html
+│   │   ├── base.html
+│   │   ├── booking.html
+│   │   ├── error.html
+│   │   ├── login.html
+│   │   ├── mybooking.html
+│   │   ├── register.html
+│   │   ├── trainsavailable.html
+│   │   ├── viewperson.html
+│   │   └── viewtrains.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+└── tree.txt
+
+8 directories, 70 files

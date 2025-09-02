@@ -1,7 +1,6 @@
 {% extends "./base.html" %}
 
 {% block content %}
-
 <div style="margin-top: 50px;">
     <center><h2> Trains </h2></center>
 
@@ -18,21 +17,26 @@
             </tr>
         </thead>
         <tbody>
-            {%for p in lis%}
+            {% for train in trains %}
             
             <tr>
-                <td><a href="http://127.0.0.1:8000/reservation/{{p.pk}}">{{p.pk}}</a></td>
-                <td>{{p.train_name}}</td>
-                <td>{{p.source}}</td>
-                <td>{{p.destination}}</td>
-                <td>{{p.time}}</td>
-                <td>{{p.price}}</td>
-                <td>{{p.seats_available}}</td>
+                <td>
+                    <a href="{% url 'reservation:train_detail' train.pk %}">{{ train.pk }}</a>
+                </td>
+                <td>{{ train.train_name }}</td>
+                <td>{{ train.source }}</td>
+                <td>{{ train.destination }}</td>
+                <td>{{ train.time }}</td>
+                <td>{{ train.price }}</td>
+                <td>{{ train.seats_available }}</td>
             </tr>
             
+            {% empty %}
+            <tr>
+                <td colspan="7" class="text-center">No trains found.</td>
+            </tr>
             {% endfor %}
         </tbody>
     </table>
 </div>
-
 {% endblock %}
