@@ -1,7 +1,3 @@
 # requirements.txt
-
-# Web Framework - Upgrading from 3.0.7 to a modern LTS version
-Django~=4.2
-
-# Production WSGI server (good practice)
+Django~=5.2
 gunicorn
