@@ -20,7 +20,7 @@ sudo rm db.sqlite3
 
 Build the docker:
 ```
-docker compose up build -d
+docker compose up --build -d
 
 ```
 
